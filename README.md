@@ -1,2 +1,3 @@
-# store
+# Store
 
+Store Flutter Demo app
