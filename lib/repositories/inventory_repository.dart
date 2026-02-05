@@ -43,6 +43,8 @@ class InventoryRepository {
     String? category,
     String? status,
   }) async {
+    /// I have Added a small delay to show pagination,
+    /// since API was fast, pagination was not visible
     await Future.delayed(const Duration(seconds: 2));
     final filters = <List<dynamic>>[];
 
